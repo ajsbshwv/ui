@@ -1,4 +1,4 @@
--- Plus button click (+1)vDependencies": {
+
         "chokidar-cli": "^3.0.0",
         "concurrently": "^9.2.0"
     }
@@ -154,7 +154,6 @@ end
 
 local toggled = false
 
--- # Switch Tabs # --
 local switchingTabs = false
 function switchTab(new)
   if switchingTabs then return end
@@ -4072,19 +4071,7 @@ PaddingRight=UDim.new(0,aj.TabPadding),
 }),
 ag("UICorner",{
 CornerRadius=UDim.new(0,aj.MenuCorner-aj.MenuPadding)
-}),
-
-
-
-
-
-
-
-
-
-
-
-
+}).
 
 ag("TextLabel",{
 Text=at,
